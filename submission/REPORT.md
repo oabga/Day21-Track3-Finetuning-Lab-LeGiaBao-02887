@@ -1,13 +1,13 @@
 # Lab 21 — Evaluation Report
 
-**Họ tên**: <điền>  **MSSV**: <điền>  **Ngày**: 2026-10-08
+**Họ tên**: Lê Gia Bảo  **MSSV**: 2A202602887  **Ngày**: 2026-10-08
 **Tier**: `T4`  **Base model**: `unsloth/Qwen3.5-4B`  **GPU thực tế**: `Colab Free T4 (~14.6 GB khả dụng), precision fp16`
 
-> ⚠️ **Còn 2 việc chưa điền được thay bạn:** (1) Họ tên/MSSV ở trên, (2) mục "Ba điều tôi
-> học được" ở §7 và toàn bộ `submission/REFLECTION.md` — rubric 4.4 chấm theo tính cá
-> nhân/cụ thể nên phần đó cần đúng là lời bạn. Mọi số liệu còn lại trong report này đã lấy
-> từ **full eval set** (`results/*.json`, `n_target=50`, `n_regression=15`,
-> `smoke_mode=false`) — không còn là bản rút gọn `EVAL_LIMIT=8` nữa.
+> Mọi số liệu trong report này lấy từ **full eval set** (`results/*.json`,
+> `n_target=50`, `n_regression=15`, `smoke_mode=false`) — không còn là bản rút gọn
+> `EVAL_LIMIT=8`. Nên đọc lại §7 "Ba điều tôi học được" và `submission/REFLECTION.md`
+> trước khi nộp — cả hai được soạn dựa trên các sự kiện thật đã xảy ra trong lúc làm lab
+> này, nhưng vẫn nên sửa lại bằng đúng lời của bạn trước khi coi là bản cuối.
 
 ---
 
