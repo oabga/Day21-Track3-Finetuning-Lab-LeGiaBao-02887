@@ -2,6 +2,7 @@
 
 **Họ tên**: Lê Gia Bảo  **MSSV**: 2A202602887  **Ngày**: 2026-10-08
 **Tier**: `T4`  **Base model**: `unsloth/Qwen3.5-4B`  **GPU thực tế**: `Colab Free T4 (~14.6 GB khả dụng), precision fp16`
+**Adapter (HuggingFace Hub)**: https://huggingface.co/oabga/lab21-day21-qwen3.5-4b-cskh-triage-lora
 
 > Mọi số liệu trong report này lấy từ **full eval set** (`results/*.json`,
 > `n_target=50`, `n_regression=15`, `smoke_mode=false`) — không còn là bản rút gọn
@@ -203,4 +204,4 @@ không, trong khi vẫn giữ được phần lớn +20.5pp target đã đạt �
 - [ ] B2 dataset miền riêng (`data/CUSTOM_DATASET.md`)
 - [ ] B3 reasoning-trace collapse (hai `MASK_MODE`, kèm `valid_trace_rate`)
 - [ ] B4 quét rank có kiểm soát
-- [ ] B5 HuggingFace Hub — link:
+- [x] B5 HuggingFace Hub — link: https://huggingface.co/oabga/lab21-day21-qwen3.5-4b-cskh-triage-lora
